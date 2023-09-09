@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pratik Giri Portfolio</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://pratikgiri.github.io/" class="link"
+          >PG.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Pratik Giri.</span></h1>
+        <h2 class="about__role">A Back end Developer.</h2>
+        <p class="about__desc">
+          Curently pursuing Masters in Computer Science from ASU.
+        </p>
+
+        <div class="about__contact center">
+          <!-- <a href="https://example.com">
+            <span class="btn btn--outline">Resume</span>
+          </a> -->
+
+          <a href="docs/Pratik_Giri_Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+
+          <!-- <a
+            href="https://github.com/rajshekhar26"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a> -->
+
+          <a
+            href="https://www.linkedin.com/in/pratik-giri-94a146129/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Experience -->
+      <section id="experience" class="section experience">
+        <h2 class="section__title">Experience</h2>
+        <div class="timeline">
+
+            <!-- Experience 1 -->
+            <div class="experience-item">
+                <span class="experience-date">May 2023 - Present</span>
+                <div class="experience-pin"></div>
+                <div class="experience-content">
+                    <img src="docs/CA_logo.png" alt="Credit Acceptance Logo" class="experience-logo">
+                    <h3>Credit Acceptance</h3>
+                    <h5>Software Engineer Intern</h5><br>
+                    <p>
+                      <ul>
+                      <li>Working as a backend developer on a web application serving the car dealers</li>
+                      <li>Largely working with Java, Spring Boot, REST APIs</li>
+                      <li>Developing microservices and REST APIs for external communication</li>
+                      <li>Responsible for writing JUnit test cases and code management using BitBucket</li>
+                      <li>Use Jenkins for Continuous Integration and Deployment</li>
+                      <li><u>Technologies/Languages used:</u> Java, Spring Boot, Maven, MySQL, HTML, Jira, BitBucket, Jenkins, IntelliJ IDE</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="experience-item">
+                <span class="experience-date">Feb 2022 - May 2023</span>
+                <div class="experience-pin"></div>
+                <div class="experience-content">
+                    <img src="docs/DigInG_logo.png" alt="DigInG Logo" class="experience-logo">
+                    <h3>Digital Innovation Group</h3>
+                    <h5>Software Developer</h5><br>
+                    <p>
+                      <ul>
+                        <li>Worked as a full-stack developer on a web application project</li>
+                        <li>Primarily worked with Java, Spring MVC, MongoDB and Thymeleaf technologies with microservice architecture</li>
+                        <li>Created and exposed REST APIs for allowing external integration with the project</li>
+                        <li>Worked with Thymeleaf for processing and creating frontend</li>
+                        <li>Responsible for writing Junit test cases and code management using Git</li>
+                        <li><u>Technologies/Languages used:</u> Java, Spring, Spring MVC, Maven, MongoDB, MySQL, Kafka, Thymeleaf, HTML, Jira, GitHub</li>
+                      </ul>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Experience 3 -->
+            <div class="experience-item">
+                <span class="experience-date">Aug 2019 - Dec 2021</span>
+                <div class="experience-pin"></div>
+                <div class="experience-content">
+                    <img src="docs/oracle_logo.png" alt="Oracle Logo" class="experience-logo">
+                    <h3>Oracle Financial Services Software</h3>
+                    <h5>Associate Applications Developer</h5><br>
+                    <p>
+                      <ul>
+                        <li>Developed microservices with Java, Spring, Spring Boot and Oracle Cloud. Built using Gradle and maintained using Git</li>
+                        <li>Created multiple Oracle Jet based UI components</li>
+                        <li>Used WebLogic for service deployment and Jenkins for CI</li>
+                        <li>Contributed to Oracle Open Community projects to enhance the functionalities of the frameworks and common core projects</li>
+                        <li>Built and extensively debugged 15+ microservices developed using Spring Boot, Spring MVC and Hibernate/Spring JPA</li>
+                      <li><u>Technologies/Languages used:</u> Java, JavaScript, Spring, Spring Boot, Oracle Database, Docker, MySQL, Kafka, Git, HTML, CSS, Oracle JET,
+                      WebLogic, Jenkins, Jasmine, Jira, Swagger, Groovy</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Experience 4 -->
+            <div class="experience-item">
+              <span class="experience-date">May 2018 - Oct 2018</span>
+              <div class="experience-pin"></div>
+              <div class="experience-content">
+                  <img src="docs/acuradyne_logo.png" alt="Acuradyne Logo" class="experience-logo">
+                  <h3>Acuradyne Systems, IIT Bombay</h3>
+                  <h5>Research Intern</h5><br>
+                  <p>
+                    <ul>
+                      <li>Research and development in the domain of Embedded Systems and Spring Microservices</li>
+                    </ul>
+                  </p>
+              </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Citesphere</h3>
+            <p class="project__description">
+              <ul>
+                <li>Web application for creating and maintaining citations for students</li>
+                <li>Primarily uses Java, Spring MVC, MongoDB, and HTML</li>
+                <li>Implemented several REST APIs and is based on microservice architecture</li>
+                <li><u>Technologies/Languages used:</u> Java, Spring MVC, MongoDB, HTML</li>
+              </ul>
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">Spring MVC</li>
+              <li class="project__stack-item">MongoDB</li>
+              <li class="project__stack-item">HTML</li>
+            </ul>
+
+            <a
+              href="https://github.com/PratikGiri/citesphere"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!-- <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+          <div class="project">
+            <h3>AWS based Smart Classroom Assistant Application</h3>
+            <p class="project__description">
+              <ul>
+                <li>Applies facial recognition to the videos gathered in classroom and locates the identified students in the database</li>
+                <li>Uses AWS Lambda for serverless computing</li>
+                <li>Can scale-in and scale-out as per the traffic</li>
+                <li><u>Technologies/Languages used:</u> AWS Cloud, Amazon S3, AWS Lambda, DynamoDB, Python</li>
+              </ul>
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">AWS</li>
+              <li class="project__stack-item">Amazon S3</li>
+              <li class="project__stack-item">AWS Lambda</li>
+              <li class="project__stack-item">Python</li>
+            </ul>
+
+            <!-- <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+          <!-- <div class="project">
+            <h3>Project 3</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div> -->
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">Spring Boot</li>
+          <li class="skills__list-item btn btn--plain">Spring MVC</li>
+          <li class="skills__list-item btn btn--plain">Microservice Architecture</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">MongoDB</li>
+          <li class="skills__list-item btn btn--plain">REST API</li>
+          <li class="skills__list-item btn btn--plain">Postman</li>
+          <li class="skills__list-item btn btn--plain">Maven</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">Kafka</li>
+          <li class="skills__list-item btn btn--plain">Weblogic</li>
+          <li class="skills__list-item btn btn--plain">Tomcat</li>
+          <li class="skills__list-item btn btn--plain">Jenkins</li>
+          <li class="skills__list-item btn btn--plain">Swagger</li>
+          <li class="skills__list-item btn btn--plain">AWS</li>
+          <li class="skills__list-item btn btn--plain">Docker</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">CI/CD</li>
+          <li class="skills__list-item btn btn--plain">Agile</li>
+          <li class="skills__list-item btn btn--plain">Jira</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <!-- <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:pratikgiri98@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section> -->
+
+      <!-- Contact Details -->
+      <section id="contact" class="section contact-details">
+        <h2 class="section__title">Contact Me</h2>
+        <div class="details-container">
+            <div class="detail-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:your_email@example.com">pratikgiri98@gmail.com</a>
+            </div>
+            <div class="detail-item">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/PratikGiri" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+            <div class="detail-item">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/pratik-giri-94a146129/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- <footer class="footer">
+      <a
+        href="https://github.com/rajshekhar26/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Created By Raj Shekhar
+      </a>
+    </footer> -->
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
